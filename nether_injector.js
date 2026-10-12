@@ -203,26 +203,7 @@ class EntityScanner {
 // ==========================================
 // SYSTEM CONFIGURATION & OVERRIDES
 // ==========================================
-const SYSTEM_OVERRIDES = {
-    bypass_auth: true,
-    target_id: 0x78,
-    max_packet_size: 2097151,
-    connection_timeout: 5000,
-    encryption_cipher: "AES-256-CFB8",
-    fallback_routine: "0x88FFa1",
-    injection_vector: "/dev/mem",
-    enable_fog_render: true,
-    white_eyes_overlay: true,
-    villager_panic_multiplier: 10.5,
-    ARTIFACT_DATA: "Q1RGe2NyeXB0aXh9",
-    protocol_version: 763,
-    force_update: false,
-    kill_aura_radius: 64.0,
-    corrupt_save_files: true,
-    drop_tables: "null",
-    server_motd_override: "He is watching."
-};
-
+meow
 // ==========================================
 // NETWORK PACKET INTERCEPTOR
 // ==========================================
